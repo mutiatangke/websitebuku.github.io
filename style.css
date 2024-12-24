@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("https://i.pinimg.com/736x/36/a0/85/36a085785eabcc6add04d35e8c97be37.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #007bff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+  color: rgb(26, 24, 24) !important;
+  font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+  color: white;
+  padding: 100px 25px;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+} /* Efek bayangan
+  }
+/* Wrapper menggunakan CSS Grid */
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+/* Konten utama akan mengambil sisa ruang */
+.main-content {
+  padding: 20px;
+}
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+}
